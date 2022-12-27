@@ -1,0 +1,180 @@
+.header{
+width:1440px ;
+height:1240px ;
+}
+
+.main{
+  width:1440px ;
+  height: 1066px;
+}
+
+.avatar{
+display: flex;
+margin: 0 auto;
+width: 470px;
+height: 500px;
+margin-bottom: 15px;
+}
+
+.name{
+position: absolute;
+width: 647px;
+height: 68px;
+left: 322px;
+top: 1026px;
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+letter-spacing: 0.1em;
+}
+
+.information-container{
+  font-family: 'Anek Gurmukhi', sans-serif;
+}
+
+.about-title{
+width: 215px;
+height: 68px;
+left: 213px;
+top: 1240px;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+margin-bottom: 10px;
+position: absolute;
+}
+
+.about-me{
+width: 1013px;
+height: 117px;
+left: 213px;
+top: 1318px;
+font-weight: 300;
+font-size: 36px;
+line-height: 43px;
+margin-bottom: 80px;
+position: absolute;
+}
+
+.education-container{
+width: 811px;
+height: 98px;
+left: 213px;
+top: 1515px;
+position: absolute;
+}
+
+.education-title{
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+
+.education{
+font-weight: 300;
+font-size: 36px;
+line-height: 130%;
+margin-bottom: 81px;
+}
+
+.skills-container{
+width: 274px;
+height: 213px;
+left: 213px;
+top: 1694px;
+position: absolute;
+}
+
+.skills-title{
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+.skills{
+font-weight: 300;
+font-size: 36px;
+line-height: 130%;
+margin-bottom: 60px;
+}
+
+.languages-container{
+width: 648px;
+height: 213px;
+left: 578px;
+top: 1694px;
+position: absolute;
+}
+
+.languages-title{
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+
+.languages{
+font-weight: 300;
+font-size: 36px;
+line-height: 130%;
+margin-bottom: 60px;
+}
+
+.contact-title{
+width: 437px;
+height: 50px;
+left: 213px;
+top: 1967px;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 40px;
+position: absolute;
+}
+
+.location{
+width: 220px;
+height: 82px;
+left: 213px;
+top: 2147px;
+font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+text-align: center;
+position: absolute;
+}
+
+.email{
+width: 415px;
+height: 178px;
+left: 533px;
+top: 2047px;
+font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+text-align: center;
+position: absolute;
+}
+
+.github{
+width: 129px;
+height: 166px;
+left: 1048px;
+top: 2060px;
+font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+text-align: center;
+position: absolute;
+}
