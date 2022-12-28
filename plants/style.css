@@ -4,11 +4,55 @@
     margin: 0;
 }
 
+.logoHeader{
+    padding-top: 52px;
+    padding-left: 111px;
+    padding-top: 61px;
+}
+
+.plantsAvatarHeader{
+    float: left;
+    width: 20px;
+    height: 20px;
+    left: 111px;
+    top: 52px;
+
+}
+
+.plantsTextHeader{
+    width: 58.13px;
+    height: 17px;
+    left: 132.05px;
+    top: 56.04px;
+    float: left;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+
+.nav{
+    float: right;
+    width: 452px;
+    height: 50px;
+    left: 879px;
+    top: 42px;
+    padding-right: 20px;
+}
+
+.navMenu{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+}
+
 li {
     display: inline; 
     padding: 6px;
-    left: 67.29%;
-    color: black;
 }
 
 .homeHeader{
@@ -17,8 +61,9 @@ li {
     font-weight: 700;
     font-size: 16px;
     line-height: 50px;
-    color: #E06733;
 }
+
+
 
 .welcome{
     background-color:#EDF2EC;
