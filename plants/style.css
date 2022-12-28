@@ -64,6 +64,7 @@ li {
 }
 
 .welcome{
+    height: 532px;
     background-color:#EDF2EC;
 }
 
@@ -73,6 +74,10 @@ li {
     height: 340px;
     left: 782px;
     top: 90px;
+}
+
+.plantsGreen{
+    color: #499A18;
 }
 
 .welcomeTitle{
@@ -115,6 +120,53 @@ li {
 
 .about{
     background-color:#FFFFFF;
+    height: 666px;
+}
+
+.houseplant{
+    width: 1222px;
+    height: 479px;
+    left: 109px;
+    top: 93px;
+}
+
+.aboutAvatar{
+    position: absolute;
+    width: 464px;
+    height: 470px;
+    margin-top: 93px;
+    left: 950px;
+}
+
+.aboutText{
+    width: 605px;
+    height: 350px;
+    left: 109px;
+    top: 161px;
+    padding-top: 161px;
+    padding-left: 109px;
+}
+
+.aboutHeader1{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.orange{
+    color: #E06733;
+}
+
+.aboutParagraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
 }
 
 .service{
