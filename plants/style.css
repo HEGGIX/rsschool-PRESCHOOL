@@ -63,10 +63,54 @@ li {
     line-height: 50px;
 }
 
-
-
 .welcome{
     background-color:#EDF2EC;
+}
+
+.welcomeSection{
+    position: absolute;
+    width: 549px;
+    height: 340px;
+    left: 782px;
+    top: 90px;
+}
+
+.welcomeTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    padding-top: 98px;
+    color: #717171;
+}
+
+.welcomeText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.welcomeButton{
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.leafs{
+    padding-top: 62px;
+    padding-left: 109px;
 }
 
 .about{
