@@ -1,1 +1,45 @@
+.header{
+    height: 134px;
+    background-color:#EDF2EC;
+    margin: 0;
+}
 
+li {
+    display: inline; 
+    padding: 6px;
+    left: 67.29%;
+    color: black;
+}
+
+.homeHeader{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E06733;
+}
+
+.welcome{
+    background-color:#EDF2EC;
+}
+
+.about{
+    background-color:#FFFFFF;
+}
+
+.service{
+    background-color:#EDF2EC;
+}
+
+.price{
+    background-color:#FFFFFF;
+}
+
+.contacts{
+    background-color:#EDF2EC;
+}
+
+.footer{
+    background-color:#FFFFFF;
+}
