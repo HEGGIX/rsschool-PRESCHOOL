@@ -173,6 +173,41 @@ li {
     background-color:#EDF2EC;
 }
 
+.serviceHeader1{
+    width: 406px;
+    height: 94px;
+}
+
+.serviceHeader2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    padding-top: 40px;
+    padding-left: 109px;
+}
+
+.serviceButton{
+    width: 559px;
+    height: 50px;
+}
+
+.gardens{
+    width: 81px;
+    height: 26px;
+    left: 597px;
+    top: 81px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+}
+
 .price{
     background-color:#FFFFFF;
 }
@@ -181,6 +216,46 @@ li {
     background-color:#EDF2EC;
 }
 
+.contactsHeader1{
+    position: absolute;
+    padding-left: 730px;
+    padding-top: 40px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.contactWoman{
+    width: 400px;
+    height: 496px;
+    padding-left: 109px;
+    padding-top: 53px;
+}
+
+.city{
+    left: 881px;
+    top: 148px;
+}
+
 .footer{
     background-color:#FFFFFF;
+}
+
+.footerContainer{
+    height: 50px;
+    left: 109px;
+    top: 40px;
+}
+
+.rss{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
 }
