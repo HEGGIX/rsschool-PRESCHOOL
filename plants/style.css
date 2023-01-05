@@ -42,17 +42,20 @@
     padding-right: 20px;
 }
 
-.navMenu{
+.navConteiner li {
+    list-style: none;
+    display: inline; 
+    padding: 6px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
+    color: #010201;
 }
 
-li {
-    display: inline; 
-    padding: 6px;
+li{
+    display: inline-block;
 }
 
 .homeHeader{
@@ -192,9 +195,58 @@ li {
 .serviceButton{
     width: 559px;
     height: 50px;
+    float: right;
 }
 
-.gardens{
+label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.serviceButton button{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+}
+
+
+.serviceContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 224px;
+}
+
+.serviceContent h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+}
+
+.serviceContent p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    text-align: center;
+}
+
+.gardensBtn{
     width: 81px;
     height: 26px;
     left: 597px;
@@ -210,10 +262,59 @@ li {
 
 .price{
     background-color:#FFFFFF;
+    width: 100%;
+    height: 560px;
 }
+
+.priceMenu{
+    width: 332px;
+    height: 391.01px;
+}
+
+.priceMenuHeader{
+    padding-top: 40px;
+    padding-left: 109px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.conectionHeader{
+
+}
+
+.conection{
+    width: 502px;
+    height: 191.01px;
+}
+
+.conection h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+.spanGardeners{
+    color: #499A18;
+}
+
+.picture{
+    padding-bottom: 115px;
+    padding-left: 1279px;
+}
+
 
 .contacts{
     background-color:#EDF2EC;
+    height: 550px;
+    width: 100%;
 }
 
 .contactsHeader1{
@@ -240,14 +341,43 @@ li {
     top: 148px;
 }
 
+.cityInput{
+    width: 400px;
+    height: 30px;
+    left: 61.18%;
+    right: 7.57%;
+    top: 148px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(97, 94, 94, 0);
+    border-radius: 0px;
+}
+
 .footer{
     background-color:#FFFFFF;
 }
 
 .footerContainer{
+    height: 130px;
+}
+
+.gitHubContainer{
     height: 50px;
-    left: 109px;
-    top: 40px;
+    width: 320px;
+    padding-top: 40px;
+    padding-right: 109px;
+    padding-bottom: 40px;
+}
+
+.gitHub{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    padding-left: 109px;
+    text-align: left;
+
 }
 
 .rss{
@@ -258,4 +388,11 @@ li {
     font-size: 20px;
     line-height: 50px;
     color: #000000;
+}
+
+.links{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    text-align: right;
 }

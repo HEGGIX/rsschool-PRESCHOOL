@@ -27,15 +27,17 @@
                     <p>Plants</p>
                 </div>
             </div>
-            <nav class="nav">
-                <ul class="navMenu">
-                  <li class="homeHeader"><a href="#">Home</a></li>
-                  <li class="aboutHeader"><a href="#">About us</a></li>
-                  <li class="serviceHeader"><a href="#">Service</a></li>
-                  <li class="priceHeader"><a href="#">Price</a></li>
-                  <li class="contactsHeader"><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
+            <div class="navConteiner">
+                <nav class="nav">
+                    <ul class="navMenu">
+                    <li class="navMenuItem"><a href="#">Home</a></li>
+                    <li class="navMenuItem"><a href="#">About us</a></li>
+                    <li class="navMenuItem"><a href="#">Service</a></li>
+                    <li class="navMenuItem"><a href="#">Price</a></li>
+                    <li class="navMenuItem"><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -61,44 +63,64 @@
             </div>
         </section>
         <section class="service">
-            <div class="serviceHeader1">
-                <h2 class="serviceHeader2">Service and our projects</h2>
-            </div>
-            <div class="serviceButton">
-                <button class="gardens">Gardens</button>
-                <button class="lawn">Lawn</button>
-                <button class="planting" >Planting</button>
+            <div class="serviceHeaderConteiner">
+                <div class="serviceHeader1">
+                    <h2 class="serviceHeader2">Service and our projects</h2>
+                </div>
+                <div class="serviceButton">
+                    <button class="gardensBtn">Gardens</button>
+                    <button class="lawnBtn">Lawn</button>
+                    <button class="plantingBtn" >Planting</button>
+                </div>
             </div>
             <div class="serviceContent">
-                <div class="gardenCare">
-                    <h3>Garden care<h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first.png" alt="gardenCare">
+                <div class="serviceConteiner1">
+                    <div class="gardenCare">
+                        <div class="gardenCareText1">
+                            <h3>Garden care<h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first.png" alt="gardenCare">
+                    </div>
+                    <div class="planting">
+                        <div class="plantingText">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first (1).png" alt="planting">
+                    </div>
                 </div>
-                <div class="planting1">
-                    <h3>Planting</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first (1).png" alt="planting">
+                <div class="serviceConteiner2">
+                    <div class="lawnCare">
+                        <div class="lawnCareText">
+                            <h3>Lawn care</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first (2).png" alt="lawnCare">
+                    </div>
+                    <div class="planting1">
+                        <div class="plantingText1">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first (3).png" alt="planting">
+                    </div>
                 </div>
-                <div class="lawnCare">
-                    <h3>Lawn care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first (2).png" alt="lawnCare">
-                </div>
-                <div class="planting2">
-                    <h3>Planting</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first (3).png" alt="planting">
-                </div>
-                <div class="gardenCare2">
-                    <h3>Garden care</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first (4).png" alt="gardenCare">
-                </div>
-                <div class="planting3">
-                    <h3>Planting</h3>
-                    <p>Lorem Ipsum has been the industry</p>
-                    <img src="images/first (5).png" alt="planting">
+                <div class="serviceConteiner3">
+                    <div class="gardenCare2">
+                        <div class="gardenCareText2">
+                            <h3>Garden care</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first (4).png" alt="gardenCare">
+                    </div>
+                    <div class="planting2">
+                        <div class="plantingText2">
+                            <h3>Planting</h3>
+                            <p>Lorem Ipsum has been the industry</p>
+                        </div>
+                        <img src="images/first (5).png" alt="planting">
+                    </div>
                 </div>
             </div>
         </section>
@@ -121,8 +143,12 @@
                 </div>
             </div>
             <div class="conection">
-                <h2>Our best gardeners are ready to help you</h2>
-                <button class="contactUs">Contact us</button>
+                <div class="conectionHaeder">
+                    <h2>Our best <span class="spanGardeners">gardeners</span> are ready to help you</h2>
+                </div>
+                <div class="conectionBtn">
+                    <button class="contactUs">Contact us</button>
+                </div>
             </div>
             <div class="picture">
                 <img src="images/leafs.png" alt="picture">
@@ -144,12 +170,14 @@
     </main>
     <footer class="footer">
         <div class="footerContainer">
+            <div class="gitHubContainer">
+                <p class="gitHub">© 2022 GitHub</p>
+            </div>
             <div>
-                <p class="gitHub">2022 GitHub</p>
                 <p class="rss">Roling Scopes School</p>
             </div>
             <div class="links">
-                <ul>
+                <ul class="socialList">
                     <li><img src="images/inst 1.png" alt="instagram"><a href=""></a></li>
                     <li><img src="images/fb 1.png" alt="facebook"><a href=""></a></li>
                     <li><img src="images/tw 1.png" alt="twitter"><a href=""></a></li>
