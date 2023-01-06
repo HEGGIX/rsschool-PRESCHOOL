@@ -43,6 +43,7 @@
 }
 
 .navConteiner li {
+    text-decoration: none;
     list-style: none;
     display: inline; 
     padding: 6px;
@@ -174,6 +175,7 @@ li{
 
 .service{
     background-color:#EDF2EC;
+    height: 1300px;
 }
 
 .serviceHeader1{
@@ -193,9 +195,10 @@ li{
 }
 
 .serviceButton{
-    width: 559px;
+    width: 659px;
     height: 50px;
     float: right;
+    padding-right: 354px;
 }
 
 label{
@@ -208,6 +211,8 @@ label{
 }
 
 .serviceButton button{
+    width: 170px;
+    height: 50px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -216,6 +221,7 @@ label{
     color: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
+    margin-right: 38px;
 }
 
 
@@ -223,7 +229,9 @@ label{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 224px;
+    margin-top: 220px;
+    padding-bottom: 121px;
+
 }
 
 .serviceContent h3{
@@ -271,6 +279,27 @@ label{
     height: 391.01px;
 }
 
+.prices{
+    height: 282px;
+    width: 400px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-left: 109px;
+    text-align: center;
+    padding-top: 34px;
+}   
+
+.radio{
+    width: 300px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 45px;
+    margin-bottom: 32px;
+}
+
 .priceMenuHeader{
     padding-top: 40px;
     padding-left: 109px;
@@ -282,16 +311,7 @@ label{
     color: #000000;
 }
 
-.conectionHeader{
-
-}
-
-.conection{
-    width: 502px;
-    height: 191.01px;
-}
-
-.conection h2{
+.connectionTitle{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -303,6 +323,29 @@ label{
 
 .spanGardeners{
     color: #499A18;
+}
+
+.conection{
+    float: right;
+    width: 502px;
+    height: 191px;
+    margin-right: 109px;
+
+}
+
+
+.contactUs{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    box-sizing: border-box;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #FFFFFF;
 }
 
 .picture{
@@ -375,24 +418,31 @@ label{
     font-size: 20px;
     line-height: 50px;
     color: #000000;
-    padding-left: 109px;
+    margin-left: 109px;
     text-align: left;
 
 }
 
+.rssContainer{
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .rss{
-    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 50px;
     color: #000000;
+    text-align: center;
 }
 
 .links{
-    display: flex;
     width: 200px;
     height: 50px;
     text-align: right;
+    float: right;
+    margin-right: 110px;
+    vertical-align: middle;
 }
