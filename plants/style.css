@@ -5,6 +5,8 @@
 }
 
 .logoHeader{
+    width: 90px;
+    height: 21.04px;
     padding-top: 52px;
     padding-left: 111px;
     padding-top: 61px;
@@ -16,7 +18,6 @@
     height: 20px;
     left: 111px;
     top: 52px;
-
 }
 
 .plantsTextHeader{
@@ -30,7 +31,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-
 }
 
 .nav{
@@ -74,13 +74,13 @@
     margin-right: 35px;
 }
 
-.navMenu li::after{
+.navMenu li:active{
     background-color:#EDF2EC;
     transform: translate(0em, 0em);
     cursor: pointer;
 }
 
-.navMenu li::before{
+.navMenu li:active::before{
     color: #E06733;
 }
 
