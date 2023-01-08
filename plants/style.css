@@ -35,11 +35,11 @@
 
 .nav{
     float: right;
-    width: 452px;
+    width: 600px;
     height: 50px;
     left: 879px;
     top: 42px;
-    margin-right: 260px;
+    margin-right: 230px;
 }
 
 .navMenuItem{
@@ -48,7 +48,7 @@
     padding: 6px;
 }
 
-.navMenuItem a{
+.navMenuItem{
     text-decoration: none;
     font-family: 'Inika';
     font-style: normal;
@@ -56,10 +56,32 @@
     font-size: 16px;
     line-height: 50px;
     color: #010201;
+    margin-right: 35px;
 }
 
 .navMenuItem:visited{
     text-decoration: none;
+}
+
+.navMenuHome{
+    text-decoration: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E06733;
+    margin-right: 35px;
+}
+
+.navMenu li::after{
+    background-color:#EDF2EC;
+    transform: translate(0em, 0em);
+    cursor: pointer;
+}
+
+.navMenu li::before{
+    color: #E06733;
 }
 
 li{
@@ -122,6 +144,7 @@ li{
     align-items: center;
     text-align: center;
     color: #000000;
+    background-color: #EDF2EC;
 }
 
 .welcomeButton:active {
@@ -129,7 +152,7 @@ li{
     transform: translate(0em, 0.75em);
 }
 .welcomeButton:active::before {
-    background-color: red;
+    background-color:#E06733 ;
   }
 
 .leafs{
@@ -194,7 +217,7 @@ li{
 }
 
 .serviceHeader1{
-    width: 406px;
+    width: 506px;
     height: 94px;
 }
 
@@ -206,14 +229,14 @@ li{
     line-height: 52px;
     color: #499A18;
     padding-top: 40px;
-    padding-left: 109px;
+    padding-left: 150px;
 }
 
 .serviceButton{
     width: 659px;
     height: 50px;
     float: right;
-    padding-right: 354px;
+    padding-right: 360px;
 }
 
 label{
@@ -237,16 +260,29 @@ label{
     border: 1px solid #E06733;
     border-radius: 5px;
     margin-right: 38px;
+    background: #EDF2EC;
 }
 
+.serviceButton button:active{
+    background:#E06733;
+    transform: translate(0em, 0em);
+    color: white;
+}
+
+.serviceButton button::before{
+    background: #EDF2EC;
+}
 
 .serviceContent{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 220px;
+    margin-top: 180px;
     padding-bottom: 121px;
+}
 
+.serviceContent img{
+    margin-right: 116px;
 }
 
 .serviceContent h3{
@@ -256,7 +292,6 @@ label{
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    text-align: center;
 }
 
 .serviceContent p{
@@ -267,6 +302,60 @@ label{
     line-height: 20px;
     color: #717171;
     text-align: center;
+}
+
+.gardenCareText1{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plantingText{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.lawnCareText{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plantingText1{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.gardenCareText2{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plantingText2{
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 .gardensBtn{
@@ -336,6 +425,7 @@ label{
     line-height: 50px;
     text-align: right;
     color: #000000;
+    padding-top: 20px;
 }
 
 .spanGardeners{
@@ -347,10 +437,14 @@ label{
     height: 191px;
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
+    margin-right: 120px;
 }
 
 
 .contactUs{
+    width: 170px;
+    height: 50px;
     float: right;
     font-family: 'Inika';
     font-style: normal;
@@ -365,9 +459,26 @@ label{
     background-color: #FFFFFF;
 }
 
+.contactUs:active{
+    background:#E06733;
+    transform: translate(0em, 0em);
+    color: white;
+}
+
+.contactUs::before{
+    background: #EDF2EC;
+}
+
 .picture{
     float: right;
-    display: block;
+    width: 185px;
+    height: 195px ;
+    padding-top: 39px;
+    padding-left: 850px;
+}
+
+.connectionPicture{
+    float: right;
 }
 
 .contacts{
@@ -394,15 +505,24 @@ label{
     padding-top: 53px;
 }
 
-.city{
-
-}
-
 .cityInput{
+    box-shadow: none;
     width: 400px;
     height: 30px;
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(97, 94, 94, 0);
+    border-radius: 0px;
+    margin-top: 150px;
+    margin-right: 110px;
+}
+
+.cityInput:active{
+    background: #C1E698;
+}
+
+.cityInput::before{
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
 }
 
@@ -422,16 +542,16 @@ label{
     margin-bottom: 40px;
 }
 
-.gitHub{
+.gitHubHref{
+    text-decoration: none;
+    color: #000000;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    color: #000000;
     margin-left: 109px;
     text-align: left;
-
 }
 
 .rssContainer{
@@ -447,6 +567,17 @@ label{
     font-size: 20px;
     color: #000000;
     text-align: center;
+    padding-right: 115px;
+}
+
+.rssHref{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
 }
 
 .links{
