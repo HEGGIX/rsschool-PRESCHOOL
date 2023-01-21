@@ -1,51 +1,70 @@
-.header{
-    height: 134px;
-    background-color:#EDF2EC;
+*,
+*::before
+*::after{
+    padding: 0;
     margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.logoHeader{
-    width: 90px;
-    height: 21.04px;
-    padding-top: 52px;
-    padding-left: 111px;
-    padding-top: 61px;
+
+html{
+    scroll-behavior: smooth;
 }
 
-.plantsAvatarHeader{
-    float: left;
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapperContainer{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._wrapper{
+    max-width: 1222px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color:#EDF2EC;
+    padding: 42px 0;
+}
+
+.logo{
+    color: #000000;
+    font-size: 16px;
+    line-height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo::before{
     width: 20px;
     height: 20px;
-    left: 111px;
-    top: 52px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.plantsTextHeader{
-    width: 58.13px;
-    height: 17px;
-    left: 132.05px;
-    top: 56.04px;
-    float: left;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
+
+.navbar_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav{
-    float: right;
-    width: 600px;
-    height: 50px;
-    left: 879px;
-    top: 42px;
-    margin-right: 230px;
+    line-height: 50px;
+    padding-right: 2px;
 }
 
-.navMenuItem{
-    list-style-type: none;
-    display: inline; 
-    padding: 6px;
+.navMenu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 .navMenuItem{
@@ -56,7 +75,7 @@
     font-size: 16px;
     line-height: 50px;
     color: #010201;
-    margin-right: 35px;
+    padding-left: 47px;
 }
 
 .navMenuItem:visited{
@@ -71,12 +90,12 @@
     font-size: 16px;
     line-height: 50px;
     color: #E06733;
-    margin-right: 35px;
 }
 
 .navMenuItem:hover{
     color:#E06733;
     transform: translate(0em, 0.75em);
+    transition: 0.3s ease-in;
 }
 
 li{
@@ -91,17 +110,50 @@ li{
     line-height: 50px;
 }
 
+.headerBurger{
+    display: none;
+    width: 40px;
+    height: 28px;
+    position: relative;
+}
+
+.burgerLine{
+    display: block;
+    width: 100%;
+    border: 2px solid #717171;
+    position: absolute;
+    left: 0;
+}
+
+.burgerLine_first{
+    top: 0;
+}
+
+.burgerLine_second{
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.burgerLine_thourd{
+    bottom: 0;
+}
+
 .welcome{
-    height: 532px;
     background-color:#EDF2EC;
+    padding: 54px 0;
+}
+
+.welcome_wrapper{
+    height: 407.36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .welcomeSection{
-    position: absolute;
-    width: 549px;
-    height: 340px;
-    left: 782px;
-    top: 90px;
+   padding-left: 211px; 
+   padding-top: 98px;
+   padding-bottom: 94px;
 }
 
 .plantsGreen{
@@ -114,7 +166,7 @@ li{
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
-    padding-top: 98px;
+    margin: 0 0 43px;
     color: #717171;
 }
 
@@ -127,65 +179,47 @@ li{
     color: #636060;
 }
 
-.welcomeButton{
-    border: 2px solid #E06733;
-    border-radius: 10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    background-color: #EDF2EC;
+.welcomeButtonContainer{
+    padding-top: 48px;
 }
 
-.welcomeButton:active {
+.welcomeButton{
+    padding: 10px 26px;
+    font-family:'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #E06733;
+    border-radius: 10px;    
+    text-transform: uppercase;
+    background-color:#EDF2EC;
+}
+
+.welcomeButton:hover {
     background:#E06733;
     transform: translate(0em, 0em);
     color: white;
-}
-.welcomeButton:active::before {
-    background: #EDF2EC;
-  }
-
-.leafs{
-    padding-top: 62px;
-    padding-left: 109px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .about{
     background-color:#FFFFFF;
-    height: 666px;
+    padding: 93px 0 94px;
 }
 
-.houseplant{
-    width: 1222px;
-    height: 479px;
-    left: 109px;
-    top: 93px;
+.about_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .aboutAvatar{
-    position: absolute;
-    width: 464px;
-    height: 470px;
-    margin-top: 93px;
-    left: 950px;
-}
-
-.aboutText{
-    width: 605px;
-    height: 350px;
-    left: 109px;
-    top: 161px;
-    padding-top: 161px;
-    padding-left: 109px;
+    padding-left: 153px;
 }
 
 .aboutHeader1{
+    width: 70%;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -208,45 +242,44 @@ li{
 }
 
 .service{
+    padding: 30px 0 66px;
     background-color:#EDF2EC;
-    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.serviceHeader1{
-    width: 506px;
-    height: 94px;
+.service_wrapper{
+    margin: 0 auto;
+    max-width: 1222px;
+}
+
+.serviceHeader{
+    display: flex;
+    align-items: center;
 }
 
 .serviceHeader2{
+    width: 30%;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-    padding-top: 40px;
-    padding-left: 150px;
+    padding-bottom: 70px;
 }
 
 .serviceButton{
-    width: 659px;
+    display: flex;
+    width: 559px;
     height: 50px;
-    float: right;
-    padding-right: 360px;
-}
-
-label{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #000000;
+    padding: 20px 0 70px 80px;
 }
 
 .serviceButton button{
-    width: 170px;
+    width: 161px;
     height: 50px;
+    margin-right: 38px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -255,30 +288,28 @@ label{
     color: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
-    margin-right: 38px;
     background: #EDF2EC;
 }
 
-.serviceButton button:active{
+.serviceBtn:hover{
     background:#E06733;
     transform: translate(0em, 0em);
     color: white;
-}
-
-.serviceButton button::before{
-    background: #EDF2EC;
-}
-
-.serviceContent{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 180px;
-    padding-bottom: 121px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .serviceContent img{
-    margin-right: 116px;
+    display: block;
+}
+
+.serviceContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceContent img{
+   margin-right: 116px;
 }
 
 .serviceContent h3{
@@ -300,117 +331,57 @@ label{
     text-align: center;
 }
 
-.gardenCareText1{
+.services{
     width: 330px;
     height: 100px;
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
     text-align: center;
     margin-bottom: 55px;
-}
-
-.plantingText{
-    width: 330px;
-    height: 100px;
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.lawnCareText{
-    width: 330px;
-    height: 100px;
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.plantingText1{
-    width: 330px;
-    height: 100px;
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.gardenCareText2{
-    width: 330px;
-    height: 100px;
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.plantingText2{
-    width: 330px;
-    height: 100px;
-    border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.gardensBtn{
-    width: 81px;
-    height: 26px;
-    left: 597px;
-    top: 81px;
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    align-items: center;
-    text-align: center;
 }
 
 .price{
-    justify-content: space-between;
-    display: flex;
-    background-color:#FFFFFF;
-    width: 100%;
     height: 560px;
+    padding: 38px 0 0 0;
+    background-color:#FFFFFF;
+}
+
+.price_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .priceMenu{
-    width: 332px;
-    height: 391.01px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .prices{
-    height: 282px;
-    width: 400px;
-    border: 1px solid #E3E1D5;
-    border-radius: 20px;
-    margin-left: 109px;
-    text-align: center;
-    padding-top: 34px;
+    width: 332px;
+    height: 282.01px;
 }   
 
+.prices-ratio {
+    box-sizing: border-box;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    height: 290px;
+    margin-top: 50px;
+}
+
 .radio{
-    width: 300px;
+    width: 250px;
     height: 50px;
     background: #EDF2EC;
     border-radius: 20px;
     text-align: center;
     line-height: 50px;
-    margin-left: 45px;
-    margin-bottom: 32px;
-}
-
-.priceMenuHeader{
-    padding-top: 40px;
-    padding-left: 109px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    color: #000000;
+    margin-top: 32px;
+    margin-left: 41px;
 }
 
 .connectionTitle{
@@ -421,7 +392,52 @@ label{
     line-height: 50px;
     text-align: right;
     color: #000000;
-    padding-top: 20px;
+}
+
+.radio:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    opacity: 0.6;
+}
+
+label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    width: 250px;
+    padding: 16px 0;
+}
+
+.priceMenuHeader{
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.connectionTitle{
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.connectionTitle h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .spanGardeners{
@@ -429,14 +445,12 @@ label{
 }
 
 .connection{
-    width: 502px;
-    height: 191px;
+    text-align: right;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
-    margin-right: 120px;
+    align-items: flex-end;
+    margin-left: 450px;
 }
-
 
 .contactUs{
     width: 170px;
@@ -453,34 +467,31 @@ label{
     border: 1px solid #E06733;
     border-radius: 5px;
     background-color: #FFFFFF;
+    padding: 0;
+    margin: 20px 0 27px;
+    width: 162px;
+    height: 50px;
+    font-weight: 700;
 }
 
-.contactUs:active{
+.contactUs:hover{
     background:#E06733;
     transform: translate(0em, 0em);
     color: white;
-}
-
-.contactUs::before{
-    background: #EDF2EC;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .picture{
-    float: right;
-    width: 185px;
-    height: 195px ;
-    padding-top: 39px;
-    padding-left: 850px;
-}
-
-.connectionPicture{
-    float: right;
+    margin-top: 10px;
 }
 
 .contacts{
     background-color:#EDF2EC;
-    height: 550px;
-    width: 100%;
+    padding: 50px 0 0 0;
+}
+
+.contacts_wrapper{
     display: flex;
     justify-content: space-between;
 }
@@ -497,45 +508,49 @@ label{
 .contactWoman{
     width: 400px;
     height: 496px;
-    padding-left: 109px;
-    padding-top: 53px;
+   
 }
 
 .cityInput{
-    box-shadow: none;
-    width: 400px;
-    height: 30px;
-    background: #D6E7D2;
-    box-shadow: 0px 4px 4px rgba(97, 94, 94, 0);
+    margin-top: 120px;
+    height: 50px;
+    width: 450px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
-    margin-top: 150px;
-    margin-right: 110px;
+    border: 0;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    background: #D6E7D2;
 }
 
 .cityInput:active{
     background: #C1E698;
-}
-
-.cityInput::before{
-    background: #D6E7D2;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
 }
 
 .footer{
     background-color:#FFFFFF;
-    height: 130px;
+    padding: 40px 0;
+}
+
+.footer_wrapper{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
 
 .gitHubContainer{
     height: 50px;
-    width: 320px;
-    margin-top: 40px;
-    margin-right: 109px;
-    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .gitHubHref{
@@ -552,8 +567,7 @@ label{
 
 .rssContainer{
     height: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    
 }
 
 .rss{
@@ -562,8 +576,9 @@ label{
     font-weight: 400;
     font-size: 20px;
     color: #000000;
-    text-align: center;
-    padding-right: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .rssHref{
@@ -572,13 +587,253 @@ label{
     font-weight: 400;
     font-size: 20px;
     color: #000000;
-    text-align: center;
     text-decoration: none;
 }
 
 .links{
-    width: 200px;
-    height: 50px;
+    width: 250px;
     float: right;
-    margin-right: 110px;
+}
+
+.socialList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.socialList img{
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s ease-in-out;
+}
+
+.socialList img:hover{
+    filter: invert(44%) sepia(95%) saturate(564%) hue-rotate(335deg) brightness(92%) contrast(90%);
+    transition: 0.3s;
+}
+
+@media  screen and (max-width: 380px) {
+    .headerBurger{
+        display: block;
+    }
+
+    .nav{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #499A18;
+        z-index: 10;
+        padding-left: 15px;
+        transform: translateX(100%);
+        transition: 0.2s all linear;
+    }
+
+    .nav_active{
+        transform: translateX(0);
+    }
+
+    .navMenuLi{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    .navMenuHome{
+        margin-left: 50px;
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .navMenuItem{
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .nav_close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+
+    .nav_close_line{
+        display: block;
+        width: 100%;
+        position: absolute;
+        border: 2px solid #717171;
+        top: 50%;
+    }
+
+    .nav_close_line:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .nav_close_line:last-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+}
+
+@media  screen and (max-width: 768px){
+    ._wrapper{
+        max-width: 668px;
+        margin: 0 auto;
+    }
+
+    .header{
+        background-color:#EDF2EC;
+        padding: 35px 0;
+    }
+
+    .navbar_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .welcome{
+        height: 420px;
+        background-color:#EDF2EC;
+        padding: 0;
+    }
+    
+    .welcome_wrapper{
+        height: 310px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    .welcomeSection{
+        height: 310px;
+        width: 346px;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+
+    .welcomeTitle{
+        width: 341px;
+        height: 101px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: 40px;
+    }
+
+    .welcomeText{
+        width: 341px;
+        height: 105px;
+        margin-top: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .welcomeButtonContainer{
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .welcomeButton{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .leafs{
+        width: 280px;
+        height: 254.15px;
+        margin-top: 40px;
+        margin-bottom: 125px;
+    }
+
+    .about{
+        height: 783px;
+        padding: 0;
+    }
+
+    .about_wrapper{
+        height: 783px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .aboutText{
+        width: 668px;
+        height: 350px;
+    }
+
+    .aboutHeader1{
+        width: 423px;
+        height: 102px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .aboutParagraph{
+        width: 668px;
+        height: 208px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .aboutAvatar{
+        width: 250px;
+        height: 258px;
+        padding: 0;
+    }
+
+    .service{
+        height: 1780px;
+        padding: 0;
+    }
+
+    .service_wrapper{
+        height: 1780px;
+    }
+
+    .serviceHeader2{
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 130px;
+    }
+
+    .serviceButton{
+        width: 559px;
+        height: 50px;
+        padding: 0;
+        margin-top: 194px;
+    }
+
+    .serviceBtn{
+        width: 161px;
+        height: 50px
+    }
+
 }
