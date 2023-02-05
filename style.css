@@ -446,7 +446,6 @@ header li {
     height: 154px;
     background: #D6E7D2;
     border-radius: 20px;
-    margin-left: 100px;
 }
 
 .accourdion-wrapper{
@@ -1331,8 +1330,6 @@ footer li{
         font-size: 20px;
         line-height: 24px;
     }
-
-    .rssContainer {}
 
     .rss {
         margin-block-start: 0em;
