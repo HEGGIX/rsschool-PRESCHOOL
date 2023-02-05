@@ -446,6 +446,7 @@ header li {
     height: 154px;
     background: #D6E7D2;
     border-radius: 20px;
+    margin-left: 0;
 }
 
 .accourdion-wrapper{
@@ -556,7 +557,7 @@ header li {
 
 .button-link:hover{
     color: white;
-     width: 108px;
+    width: 108px;
 }
 
 
