@@ -446,7 +446,6 @@ header li {
     height: 154px;
     background: #D6E7D2;
     border-radius: 20px;
-    margin-left: 40px;
 }
 
 .accourdion-wrapper{
@@ -552,10 +551,12 @@ header li {
 .button-link{
     text-decoration: none;
     color: #717171;
+    width: 108px;
 }
 
 .button-link:hover{
     color: white;
+     width: 108px;
 }
 
 
